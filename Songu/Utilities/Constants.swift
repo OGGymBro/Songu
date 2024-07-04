@@ -8,7 +8,7 @@
 import Foundation
 
 enum Constants {
-    static let baseUrl = "https://b39b-83-137-6-249.ngrok-free.app/" //add slash in the end
+    static let baseUrl = "https://9037-83-137-6-249.ngrok-free.app/" //add slash in the end
 }
 
 enum Endpoints {

@@ -15,6 +15,9 @@
 		AF5905B72C3696D8008D3835 /* SongListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5905B62C3696D8008D3835 /* SongListViewModel.swift */; };
 		AF5905B92C36991C008D3835 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5905B82C36991C008D3835 /* HTTPClient.swift */; };
 		AF5905BB2C369B3B008D3835 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5905BA2C369B3B008D3835 /* Constants.swift */; };
+		AF5905BD2C36D11A008D3835 /* ModalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5905BC2C36D11A008D3835 /* ModalType.swift */; };
+		AF5905BF2C36D2C9008D3835 /* AddUpdateSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5905BE2C36D2C9008D3835 /* AddUpdateSong.swift */; };
+		AF5905C12C36D716008D3835 /* AddUpdateSongViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5905C02C36D716008D3835 /* AddUpdateSongViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		AF5905B62C3696D8008D3835 /* SongListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListViewModel.swift; sourceTree = "<group>"; };
 		AF5905B82C36991C008D3835 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		AF5905BA2C369B3B008D3835 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AF5905BC2C36D11A008D3835 /* ModalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalType.swift; sourceTree = "<group>"; };
+		AF5905BE2C36D2C9008D3835 /* AddUpdateSong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUpdateSong.swift; sourceTree = "<group>"; };
+		AF5905C02C36D716008D3835 /* AddUpdateSongViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUpdateSongViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				AF5905A32C3694DC008D3835 /* SongList.swift */,
+				AF5905BE2C36D2C9008D3835 /* AddUpdateSong.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -98,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				AF5905B62C3696D8008D3835 /* SongListViewModel.swift */,
+				AF5905C02C36D716008D3835 /* AddUpdateSongViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -107,6 +115,7 @@
 			children = (
 				AF5905B82C36991C008D3835 /* HTTPClient.swift */,
 				AF5905BA2C369B3B008D3835 /* Constants.swift */,
+				AF5905BC2C36D11A008D3835 /* ModalType.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -182,6 +191,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF5905B52C369632008D3835 /* Song.swift in Sources */,
+				AF5905C12C36D716008D3835 /* AddUpdateSongViewModel.swift in Sources */,
+				AF5905BF2C36D2C9008D3835 /* AddUpdateSong.swift in Sources */,
+				AF5905BD2C36D11A008D3835 /* ModalType.swift in Sources */,
 				AF5905B92C36991C008D3835 /* HTTPClient.swift in Sources */,
 				AF5905B72C3696D8008D3835 /* SongListViewModel.swift in Sources */,
 				AF5905A42C3694DC008D3835 /* SongList.swift in Sources */,
