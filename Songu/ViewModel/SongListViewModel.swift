@@ -16,5 +16,11 @@ class SongListViewModel: ObservableObject {
         guard let url = URL(string: urlString) else {
             throw HttpError.badURL
         }
+        
+        let songResponse: [Song] = try await HTTPClient.shared.fetch(url: url)
+        
+        DispatchQueue.main.async {
+            self.songs = songResponse
+        }
     }
 }
